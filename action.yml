@@ -202,7 +202,7 @@ runs:
       run: rm -f pr_body.txt pr_body.template
     - name: Create PR
       id: create-pr
-      uses: minionflo/create-pull-request
+      uses: minionflo/create-pull-request@a76acb322d2050216ba57ae587b5f1e12c36615a
       with:
         base: ${{ inputs.base }}
         branch: ${{ inputs.branch }}
